@@ -43,7 +43,8 @@ INSTALLED_APPS = [
 
     # Local
     'accounts',
-    'pages'
+    'pages',
+    'article'
 ]
 
 MIDDLEWARE = [
@@ -114,7 +115,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Lima'
 
 USE_I18N = True
 
